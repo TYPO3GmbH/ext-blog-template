@@ -12,7 +12,8 @@
     }
   ],
   "require": {
-    "T3G/blog": "^1.0.0"
+    "t3g/blog": "^1.0.0",
+    "reelworx/rx-shariff": "7.3.1"
   },
   "autoload": {
     "psr-4": {

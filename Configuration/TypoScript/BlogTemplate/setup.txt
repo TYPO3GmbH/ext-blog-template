@@ -63,8 +63,8 @@ blog {
         130.stdWrap.override.cObject < lib.metaData
         130.stdWrap.override.cObject {
             key = title
-            stdWrap.wrap = <meta property="og:title" content="|" />
         }
+        130.wrap = <meta property="og:title" content="|" />
         140 = TEXT
         140.data = page:description
         140.stdWrap.override.cObject < lib.metaData
@@ -135,8 +135,8 @@ blog {
         330.stdWrap.override.cObject < lib.metaData
         330.stdWrap.override.cObject {
             key = title
-            stdWrap.wrap = <meta property="twitter:title" content="|" />
         }
+        330.wrap = <meta property="twitter:title" content="|" />
         340 = TEXT
         340.value = {$plugin.tx_blog_template.twitter.site}
         340.wrap = <meta property="twitter:site" content="|" />
