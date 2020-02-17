@@ -1,0 +1,9 @@
+# customcategory=blog=LLL:EXT:blog_template/Resources/Private/Language/locallang.xlf:blog
+# customsubcategory=twitter=LLL:EXT:blog_template/Resources/Private/Language/locallang.xlf:twitter
+# customsubcategory=global=LLL:EXT:blog_template/Resources/Private/Language/locallang.xlf:global
+#cat=blog/global; type=string; label=Cacnoncical URL: Define exclude parameters
+plugin.tx_blog_template.canoncicalExcludeParams = cHash,backPid
+#cat=blog/twitter; type=string; label=Twitter handle for site: use e.g. @FooBar
+plugin.tx_blog_template.twitter.site =
+#cat=blog/twitter; type=string; label=Twitter handle for creator: use e.g. @FooBar
+plugin.tx_blog_template.twitter.creator =

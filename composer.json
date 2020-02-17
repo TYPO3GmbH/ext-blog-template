@@ -1,0 +1,30 @@
+{
+  "name": "T3G/blogTemplate",
+  "description": "blog tempalte extension",
+  "minimum-stability": "dev",
+  "type": "typo3-cms-extension",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "TYPO3 GmbH",
+      "role": "Developer",
+      "homepage": "http://typo3.com/"
+    }
+  ],
+  "require": {
+    "T3G/blog": "1.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "T3G\\BlogTemplate\\": "Classes/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "T3G\\BlogTemplate\\Tests\\": "Tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.4.6"
+  }
+}
