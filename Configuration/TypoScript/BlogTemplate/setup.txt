@@ -25,7 +25,7 @@ lib.canoncicalUrl {
 
 config {
     tx_realurl_enable = 1
-    absRefPrefix = /
+    absRefPrefix = auto
 }
 
 blog = PAGE
